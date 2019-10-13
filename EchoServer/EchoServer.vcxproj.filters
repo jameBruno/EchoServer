@@ -18,13 +18,24 @@
     <ClInclude Include="pch.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="D:\socket_1011_0930\EchoServer\libDefine.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pch.cpp">
+    <ClCompile Include="D:\socket_1011_0930\EchoServer\echoservers.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="EchoServer.cpp">
+    <ClCompile Include="D:\socket_1011_0930\EchoServer\echoclients.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="D:\socket_1011_0930\EchoServer\libDefine.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\socket_1011_0930\EchoServer\Makefile">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>
